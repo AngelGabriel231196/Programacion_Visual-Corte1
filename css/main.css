@@ -1,0 +1,58 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  background-color: #3498db;
+  color: #fff;
+  padding: 2rem 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.about,
+.experience,
+.education,
+.skills,
+.portfolio,
+.contact {
+  padding: 2rem;
+}
+
+/* Estilos específicos */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+.project {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+  header {
+    padding: 1rem 0;
+  }
+
+  .about,
+  .experience,
+  .education,
+  .skills,
+  .portfolio,
+  .contact {
+    padding: 1rem;
+  }
+}
